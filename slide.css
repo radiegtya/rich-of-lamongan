@@ -1,0 +1,331 @@
+/* ========================== FIRST PAGE =========================== */
+#canvasfp {
+	width: 768px;
+	height: 1280px;
+	background-color: #fff;
+	float: left;
+	font-family: "dotum";}
+	
+#logo {
+	width: 60%;
+	height: 20%;
+	background-image: url(/logo.jpg);
+	background-size: 100% 280px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 0px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60%;}
+
+.buttonfp {
+	padding: auto;
+	position: relative;
+	text-align: center;
+	padding-top: auto;
+	border-radius: 10px;
+}	
+#buttonTelusuri {
+	width: 40%;
+	height: 5%;
+	background-color: #ff5454;
+	color: #fff;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40%;
+	padding-top: 2%;
+	font-size: 200%;
+	border-style: none;
+	}
+
+#buttonCarpot {
+	width: 30%;
+	height: 3%;
+	background-color: #fff;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	font-size: 170%;
+	color: #ff5454;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ff5454;
+}
+
+/* ========================== MAIN PAGE =========================== */
+/* CSS declarations go here */
+body {
+	overflow-x: hidden}
+#header {
+	width: 768px;
+	height: 120px;
+	background-color: #ffffff;}
+.nav-toggler {
+	width: 80px;
+	height: 80px;
+	background-image: url(/sidebarButton.jpg);
+	background-size: 80px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	border-style: none;}
+#title {
+	font-family: "Dotum";
+	font-size: 60px;
+	color: #494949;
+	margin-top: 50px;
+	margin-left: 150px;}
+#footerFont{
+	font-family: "Dotum";
+	font-size: 45px;
+	color: #494949;
+	float:left;
+	margin-top: 40px;
+	margin-left: 20px;}
+#buttonDp {
+	width: 768px;
+	height: 120px;
+	background-color: #ffffff;
+	}
+#directionIcon {
+	width: 60px;
+	height: 60px;
+	float:left;
+	background-image: url(/direction.jpg);
+	background-size: 60px;
+	margin-top: 30px;
+	margin-left: 150px;}
+
+	#wrapper {
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#fade {
+	width: 768px;
+	height: 1280px;
+	position: absolute;
+	left: 0px;
+	background-color: #000;
+	z-index: 3;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+
+#slidenav {
+	position: absolute;
+	width: 500px;
+	height: 100%;
+	left: -500px;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 5;
+	transition: all 1000ms ease;}
+
+#slidenav ul {
+	list-style: none;
+	background-color: #fff;
+	padding: 0;
+	font-size: 30px;}	
+.headpic {
+	width: 500px;
+	height: 209px;
+	top: 0;
+	left:0;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	background-image: url(/headpic.jpg);
+	background-size: 100%;
+	}
+.sidebaricon {
+	background-color: #fff;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: -20px;
+	margin-right: 20px;
+	}
+.sb1 {
+	background-image: url(/sidebaricon1.jpg);
+	background-size: 100%;}
+.sb2 {
+	background-image: url(/sidebaricon2.jpg);
+	background-size: 100%;}
+.listsidebartop {
+	margin-top: 230px;
+	padding-top: 30px;}
+.listsidebar {
+	width: 100%;
+	height: 60px;
+	padding-left: 70px;
+	margin-bottom: 30px;}
+/* ========================== DIRECTION PAGE =========================== */
+html, body {
+        height: 1280px;
+        margin: 0px;
+        padding: 0px;
+		width: 768px;
+      }
+	  #header {
+	  float:left;
+	width: 100%;
+	height: 120px;
+	background-color: #fff;}
+	#backButtonDp {
+		width: 80px;
+		height: 80px;
+		background-image: url(/back.jpg);
+		background-size: 80px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 20px;}
+	#title {
+		font-family: "Dotum";
+		font-size: 60px;
+		color: #494949;
+		margin-top: 25px;
+		margin-left: 150px;}
+    #panel {
+		font-family: dotum;
+		font-size: 40px;
+		color: #494949;
+		width: 90%;
+		height: 200px;
+        top: 5px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+		float:left;
+		margin-left: 5%;
+		margin-top:50px;
+		margin-bottom: 30px;}
+	select, .list {
+		font-family: dotum;
+		width: 100%;
+		font-size: 30px;
+		height: 80px;
+		float:left;
+		margin-bottom: 10px;
+		border: 1px solid #d0d0d0;}
+	.list p{
+		margin-top:20px;}
+	#start, #end {
+		color: #494949;
+		border: 1px solid #d0d0d0;}
+		
+/* ========================== LIST POTENSI =========================== */
+body, #canvaslp {
+        height: 1280px;
+		width: 768px;
+		font-family: "dotum";
+		color: #494949;
+      }
+#headerpotensi {
+	float:left;
+	width: 100%;
+	height: 120px;
+	background-color: #fff;}
+#title {
+		font-size: 60px;
+		margin-top: 25px;
+		margin-left: 150px;}
+#backButtonlp {
+		width: 80px;
+		height: 80px;
+		background-image: url(/back.jpg);
+		background-size: 80px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 20px;}
+#containerpotensi {
+		width: 100%;
+		height: 1140px;
+		background-color: #fff;
+		overflow: scroll;}
+.subicon {
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	background-image: url(/subiconpotensi.jpg);
+	background-size: 60px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+	float: left;}
+.subtitle {
+	font-size: 40px;
+	margin-top: 30px;}
+.ullp {
+	list-style: none;
+	margin-bottom: 40px;}
+.ullp li {
+	width: 50%;
+	font-size: 40px;
+	background-color: #fff;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 7px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ff5454;
+	color: #ff5454;
+	padding-top: 5px;
+	padding-bottom: 5px;}
+	
+/* ========================== TENTANG LAMONGAN =========================== */
+#canvastl {
+        height: 1280px;
+		width: 768px;
+		font-family: "dotum";
+		color: #494949;
+      }
+#headertl {
+	float:left;
+	width: 100%;
+	height: 120px;
+	background-color: #fff;}
+#title {
+		font-size: 60px;
+		margin-top: 25px;
+		margin-left: 150px;}
+#backButtontl {
+		width: 80px;
+		height: 80px;
+		background-image: url(/back.jpg);
+		background-size: 80px;
+		float: left;
+		margin-left: 40px;
+		margin-top: 20px;}
+#containertl {
+		width: 100%;
+		height: 1140px;
+		background-color: #fff;
+		overflow: scroll;}
+#piclamongan {
+	width: 100%;
+	height: 360px;
+	background-image: url(/piclamongan.jpg);
+	background-size: 100% 360px;}
+#text {
+	width: 10%;
+	height: 100%;
+	background-color: #666;
+	text-align: center;
+	position: relative;
+	margin-right: 40px;
+	font-size: 30px;}
